@@ -12,7 +12,7 @@ int main(){
             coins *= 2;
         }
         std::cout << coins << std::endl;
-        coins = 0;
+        coins = 1;
     }
     return 0;
 }
