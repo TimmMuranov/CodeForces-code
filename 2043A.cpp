@@ -3,8 +3,8 @@
 int main(){
     unsigned int iterations;
     std::cin >> iterations;
-    unsigned long in;
-    unsigned long  coins = 1;
+    unsigned long long in;
+    unsigned long  long coins = 1;
     for (int x = 0; x < iterations; ++x){
         std::cin >> in;
         while(in>3){
