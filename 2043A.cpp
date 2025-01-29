@@ -4,12 +4,13 @@ int main(){
     unsigned int iterations;
     std::cin >> iterations;
     unsigned long in;
+    unsigned long  coins = 1;
     for (int x = 0; x < iterations; ++x){
         std::cin >> in;
-        if (in > 3){
-            std::cout << (in/4) + (in%2) << std::endl;
-        } else {
-            std::cout << 1 << std::endl;
+        while(in>3){
+            in /=4;
+            coins *= 2;
         }
+        std::cout << coins << std::endl;
     }
 }
