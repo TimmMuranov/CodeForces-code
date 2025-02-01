@@ -1,10 +1,10 @@
 #include <iostream>
 
 int main(){
-    unsigned int iterations;
+    int iterations;
     std::cin >> iterations;
-    unsigned long in;
-    unsigned long  coins = 1;
+    long in;
+    long long coins = 1;
     for (int x = 0; x < iterations; ++x){
         std::cin >> in;
         while(in>3){
